@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="https://bootswatch.com/paper/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <form id="loginForm">
+            <div class="form-content">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#signIn" aria-controls="signIn" role="tab" data-toggle="tab">Sign In</a></li>
+                    <li role="presentation"><a href="#signUp" aria-controls="signUp" role="tab" data-toggle="tab">Sign Up</a></li>
+                </ul>
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="signIn">
+                        <div class="form-group">
+                            <label for="signInUsername">Username</label>
+                            <input type="text" class="form-control" id="signInUsername" placeholder="username">
+                        </div>
+                        <div class="form-group">
+                            <label for="signInPassword">Password</label>
+                            <input type="password" class="form-control" id="signInPassword" placeholder="password">
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" checked> Keep me Signed in
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Sign In</button>
+                        <footer class="text-center">
+                            <hr/>
+                            <a href="#">Forgot Password?</a>
+                        </footer>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="signUp">
+                        <div class="form-group">
+                            <label for="signUpName">Name</label>
+                            <input type="text" class="form-control" id="signUpName" placeholder="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="signUpUsername">Username</label>
+                            <input type="text" class="form-control" id="signUpUsername" placeholder="username">
+                        </div>
+                        <div class="form-group">
+                            <label for="signUpPassword">Password</label>
+                            <input type="password" class="form-control" id="signUpPassword" placeholder="password">
+                        </div>
+                        <div class="form-group">
+                            <label for="signUpConfirmPassword">Confirm Password</label>
+                            <input type="password" class="form-control" id="signUpConfirmPassword" placeholder="confirm password">
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

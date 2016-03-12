@@ -1,0 +1,75 @@
+cbody {
+  background-color: #eee;
+}
+
+#loginForm {
+  position: relative;
+  color: #fff;
+  min-width: 290px;
+  max-height: 684px;
+  background-color: #980f93;
+  background-image: url("https://c1.staticflickr.com/9/8484/8195906504_5f63d235c5_b.jpg");
+  box-shadow: 5px 10px 20px #666;
+}
+#loginForm .form-content {
+  padding: 2em;
+  background-color: rgba(14, 10, 142, 0.5);
+}
+#loginForm .nav-tabs li {
+  opacity: 0.6;
+}
+#loginForm .nav-tabs li > a {
+  color: #fff;
+  font-size: 1.5em;
+  margin: 2em 15px;
+  padding: 0 1px;
+  text-transform: uppercase;
+  box-shadow: none;
+}
+#loginForm .nav-tabs li.active {
+  opacity: 1;
+}
+#loginForm .nav-tabs li.active > a {
+  box-shadow: inset 0 -2px 0 #2196f3;
+}
+#loginForm .form-group label {
+  margin-left: 15px;
+  text-transform: uppercase;
+}
+#loginForm input[type="text"],
+#loginForm input[type="password"] {
+  background: rgba(100, 100, 100, 0.5);
+  box-shadow: none;
+}
+#loginForm input[type="text"],
+#loginForm input[type="password"],
+#loginForm button {
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 20px;
+}
+#loginForm .checkbox {
+  margin: 25px 15px;
+}
+#loginForm .btn {
+  margin: 2em 0;
+  text-transform: uppercase;
+}
+#loginForm footer hr {
+  opacity: 0.5;
+}
+#loginForm footer a {
+  color: #bbb;
+  font-size: 14px;
+  font-weight: bold;
+}
+#loginForm footer a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 559px) {
+  #loginForm {
+    width: 529px;
+    margin: 5% auto;
+  }
+}
